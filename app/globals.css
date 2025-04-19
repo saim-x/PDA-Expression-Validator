@@ -1,7 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;900&display=swap');
 @import "tailwindcss";
 
 :root {
   --background: #ffffff;
   --foreground: #171717;
+  --font-main: 'Inter', Arial, Helvetica, sans-serif;
 }
 
+html, body {
+  font-family: var(--font-main);
+  font-size: 17px;
+  font-weight: 400;
+  color: var(--foreground);
+  background: var(--background);
+  letter-spacing: 0.01em;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-main);
+  font-weight: 700;
+  color: #1a237e;
+  margin-bottom: 0.5em;
+  letter-spacing: -0.01em;
+}
