@@ -1,0 +1,21 @@
+{
+  "name": "PDA Expression Validator",
+  "short_name": "PDA Validator",
+  "start_url": "https://toasfm.vercel.app/",
+  "display": "standalone",
+  "background_color": "#f9fafb",
+  "theme_color": "#60a5fa",
+  "description": "Validate and visualize arithmetic expressions using a Pushdown Automaton.",
+  "icons": [
+    {
+      "src": "/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+} 

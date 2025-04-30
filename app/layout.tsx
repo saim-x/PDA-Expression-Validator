@@ -13,8 +13,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "TOA Project",
-  description: "TOA project | Developed by Saim, Fatimah & Meghna",
+  title: "PDA Expression Validator",
+  description: "PDA Expression Validator | Developed by Saim, Fatimah & Meghna",
 };
 
 export default function RootLayout({
