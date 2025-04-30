@@ -4,7 +4,7 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
-  --font-main: 'Inter', Arial, Helvetica, sans-serif;
+  --font-main: var(--font-geist-sans, 'Geist', 'Inter', Arial, Helvetica, sans-serif);
 }
 
 html, body {
@@ -16,6 +16,7 @@ html, body {
   letter-spacing: 0.01em;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  scroll-behavior: smooth;
 }
 
 h1, h2, h3, h4, h5, h6 {
